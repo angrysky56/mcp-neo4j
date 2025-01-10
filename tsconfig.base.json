@@ -16,7 +16,9 @@
     "baseUrl": ".",
     "paths": {
       "@neo4j/graphrag-memory": ["libs/graphrag-memory/src/index.ts"]
-    }
+    },
+    "forceConsistentCasingInFileNames": true,
+    "strict": true
   },
   "exclude": ["node_modules", "tmp"]
 }

@@ -4,7 +4,9 @@
     "target": "es2022",
     "outDir": "../../dist/out-tsc",
     "module": "ES2022",
-    "types": ["node"]
+    "types": ["node"],
+    "forceConsistentCasingInFileNames": true,
+    "strict": true
   },
   "include": ["src/**/*.ts"],
   "exclude": ["jest.config.ts", "src/**/*.spec.ts", "src/**/*.test.ts"]
